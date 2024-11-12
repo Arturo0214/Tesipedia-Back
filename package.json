@@ -1,0 +1,39 @@
+{
+  "name": "tesipedia-backend",
+  "version": "1.0.0",
+  "description": "Website specialized in guiding the completion of thesis/dissertation/research protocols to obtain a bachelor's degree in Spanish-speaking countries.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "keywords": [
+    "#backend",
+    "#thesis",
+    "#investigation"
+  ],
+  "author": "Arturo Suarez",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-async-handler": "^1.2.0",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.16",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "request-ip": "^3.3.0",
+    "stripe": "^17.3.1"
+  }
+}
